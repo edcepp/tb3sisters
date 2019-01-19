@@ -1,0 +1,17 @@
+<!--
+  Turtlebot 3
+  Host mapping lauch file.
+
+  Ed Epp
+  2/14/18
+  epp@zdome.net
+  -->
+
+<launch>
+    <include file="$(find tb3sisters)/launch/teleop.launch"
+    />
+
+    <include file="$(find turtlebot3_slam)/launch/turtlebot3_slam.launch"
+    />
+
+</launch>
